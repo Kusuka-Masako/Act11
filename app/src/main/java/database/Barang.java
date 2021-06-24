@@ -1,4 +1,4 @@
-package com.example.testbarang;
+package database;
 
 import java.io.Serializable;
 
