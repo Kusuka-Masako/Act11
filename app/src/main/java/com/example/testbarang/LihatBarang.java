@@ -17,7 +17,6 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 import adapter.AdapterLihatBarang;
-import database.Barang;
 
 public class LihatBarang extends AppCompatActivity {
 
