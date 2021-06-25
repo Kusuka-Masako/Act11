@@ -17,7 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TambahData extends AppCompatActivity{
+public class TambahBarang extends AppCompatActivity{
     private DatabaseReference database;
 
     private Button btSubmit;
@@ -62,6 +62,6 @@ public class TambahData extends AppCompatActivity{
         });
     }
     public static Intent getActIntent(Activity activity){
-        return  new Intent(activity, TambahData.class);
+        return  new Intent(activity, TambahBarang.class);
     }
 }
